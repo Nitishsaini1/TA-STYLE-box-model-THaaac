@@ -13,3 +13,68 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BOX Model 3</title>
+</head>
+<body>
+    <header id="parent-box">
+        <div>
+            THE BOX MODEL, BOX SIZING AND BOX-SHADOWS
+        </div>
+    </header>
+    <main>
+        <section>
+
+           <!-- Exercise 01 start here -->
+           <hr class="dashed-line">
+                    <p class="Exercise">Exercise 01</p>
+                       <div class="child-box-01"></div>                
+                           <div class="circle-0">
+                               <div class="contant"> Contant</div>
+                            </div>
+                            <div class="circle-1">
+                                <div class="contant"> Padding</div>
+                            </div>
+                            <div class="circle-2">
+                                <div class="contant"> Border</div>
+                            </div>
+                            <div class="circle-3">
+                                <div class="contant"> Margin</div>
+                          </div>
+                          <hr class="dashed-line">
+                   <!-- Exercise 02 start here  -->
+                        <!--  no border -->
+                   <p class="Exercise">Exercise 02</p>
+                      <p class="exercise-para">no border on these boxes.</p>
+                      <div id="parent-container">
+                           <div class="child-container-01"></div>
+                           <div class="child-container-02"></div>
+                           <div class="child-container-03"></div>
+                      </div>
+                      <hr class="dashed-line">
+                      <!--  1px border -->
+                      <p class="exercise-para"> 1px border on these boxes.</p>
+                      <div id="parent-container-01">
+                           <div class="child-container-04"></div>
+                           <div class="child-container-04"></div>
+                           <div class="child-container-04"></div>
+                      </div>
+                  <!-- 1px border on these boxes but they are in same line -->
+                   <hr class="dashed-line">
+                   <p class="exercise-para-2">1px border on these boxes but they are in same line .</p>
+                   <div id="parent-container-02">
+                        <div class="child-container-05"></div>
+                        <div class="child-container-05"></div>
+                        <div class="child-container-05"></div>
+                   </div>
+                   <div class="mgbotom"></div>
+        </section>
+    </main>
+</body>
+</html>

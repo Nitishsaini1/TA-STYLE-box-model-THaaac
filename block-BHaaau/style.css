@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styles */
+
+#parent-box{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Exercise start here */
+body{
+    font-family: "open sans", sans-serif;
+}
+.child-b-01{
+          margin-top: 20px;
+          border: 1px dashed black;
+          margin-top: 19px;
+          margin-left: 200px;
+          margin-right: 200px;
+          margin-bottom: 19px;
+}
+.Exercise{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+.child-box-01{
+      width: 100px;
+      height: 100px;
+      margin-left: 480px;
+      margin-top: 20px;
+      margin-bottom: 60px;
+      background-color: greenyellow;
+      border: 10px solid rgb(168, 187, 228);
+      outline: 2px solid rgb(0, 0, 0);
+      box-shadow: 0 0 0 18px rgb(255, 149, 122);
+}
+.circle-0{
+    margin-left: 380px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    display: inline-block;
+}
+.circle-1{
+    margin-left: 60px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(168, 187, 228);
+    display: inline-block;
+}
+.circle-2{
+    margin-left: 60px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+}
+.circle-3{
+    display: inline-block;
+    margin-left: 55px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(255, 149, 122);
+}
+.contant{
+    margin-left: 14px;
+    text-align: center;
+}
+ 
+ /*Exercise 02 begin*/
+.exercise-para{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#parent-container{
+    width: 610px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border: 1px dashed black;
+    margin-left: 200px;
+}
+.child-container-01{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    border-width: 1px;
+    background-color: grey;
+    display: inline-block;
+}
+.child-container-02{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    border-width: 1px;
+    background-color: grey;
+    display: inline-block;
+}
+.child-container-03{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    border-width: 1px;
+    background-color: grey;
+    display: inline-block;
+}
+.child-b-02{
+    margin-top: 20px;
+    border: 1px dashed black;
+    margin-top: 49px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 49px;
+}
+.dashed-line{
+        border: 1px dashed black;
+        margin-left: 160px;
+        margin-right: 200px;
+}
+#parent-container-01{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+    border: 1px dashed black;
+}
+#parent-container-02{
+    width: 620px;
+    margin-top: 20px;
+    border: 1px dashed black;
+    margin-left: 200px;
+}
+.child-container-04{
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    border-width: 1px;
+    background-color: grey;
+    display: inline-block;
+}
+.exercise-para-2{
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.child-container-05{
+    width: 180px;
+    height: 100px;
+    margin: 10px ;
+    border: 1px solid black;
+    border-width: 1px;
+    background-color: grey;
+    display: inline-block;
+}
+.mgbotom{
+    margin-bottom: 40px;
+}
